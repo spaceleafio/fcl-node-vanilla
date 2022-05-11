@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Connect Webpack</title>
+
+</head>
+<body>
+
+    <h1>Wallet Connect</h1>
+    <button id='connect-wallet'>Login</button>
+
+   
+    <script src="./bundle.js"></script>
+    <!-- <script src="../src/index.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@onflow/fcl@0.0.78/dist/fcl.min.js"></script> -->
+    <script>
+        document.getElementById('connect-wallet').addEventListener('click', () => {
+        authenticate();
+        });
+    </script>
+
+</body>
+</html> 
